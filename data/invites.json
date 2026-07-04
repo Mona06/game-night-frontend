@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "senderId": "2",
+    "recipientId": "1",
+    "eventId": "1",
+    "status": "pending"
+  },
+  {
+    "id": "2",
+    "senderId": "2",
+    "recipientId": "3",
+    "eventId": "1",
+    "status": "accepted"
+  },
+  {
+    "id": "3",
+    "senderId": "1",
+    "recipientId": "3",
+    "eventId": "2",
+    "status": "pending"
+  },
+  {
+    "id": "4",
+    "senderId": "3",
+    "recipientId": "1",
+    "eventId": "3",
+    "status": "accepted"
+  },
+  {
+    "id": "5",
+    "senderId": "3",
+    "recipientId": "2",
+    "eventId": "3",
+    "status": "accepted"
+  }
+]

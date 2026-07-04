@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "age": 30,
+    "country": "USA",
+    "gender": "Male",
+    "invitations": ["1", "3"],
+    "eventsAttending": ["2"],
+    "eventsHosting": ["2"]
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "password": "password456",
+    "age": 28,
+    "country": "USA",
+    "gender": "Female",
+    "invitations": [],
+    "eventsAttending": ["1", "3"],
+    "eventsHosting": ["1"]
+  },
+  {
+    "id": "3",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "password": "password789",
+    "age": 35,
+    "country": "USA",
+    "gender": "Female",
+    "invitations": ["2"],
+    "eventsAttending": ["1", "3"],
+    "eventsHosting": ["3"]
+  }
+]

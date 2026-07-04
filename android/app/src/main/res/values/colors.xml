@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_color">#64558f</color> <!-- Replace with your app's primary color -->
+    <color name="ic_launcher_background">#64558f</color>
+</resources>
+

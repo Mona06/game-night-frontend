@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "group_name": "Group A",
+    "description": "This is Group A",
+    "users": [
+      "user1",
+      "user2",
+      "user3"
+    ]
+  },
+  {
+    "id": "2",
+    "group_name": "Group B",
+    "description": "This is Group B",
+    "users": [
+      "user2",
+      "user4"
+    ]
+  },
+  {
+    "id": "3",
+    "group_name": "Group C",
+    "description": "This is Group C",
+    "users": [
+      "user1",
+      "user3",
+      "user4"
+    ]
+  }
+]

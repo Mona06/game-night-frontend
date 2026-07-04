@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "name": "Birthday Party",
+    "description": "A celebration of my birthday",
+    "startDate": "2023-12-31",
+    "startTime": "20:00",
+    "endDate": "2024-01-01",
+    "endTime": "02:00",
+    "location": "123 Main St, City",
+    "invited": ["1"],
+    "attendees": ["2", "3"],
+    "host": "2"
+  },
+  {
+    "id": "2",
+    "name": "Wedding Anniversary",
+    "description": "Celebrating our wedding anniversary",
+    "startDate": "2023-09-30",
+    "startTime": "18:00",
+    "endDate": "2023-09-130",
+    "endTime": "23:00",
+    "location": "456 Elm St, Town",
+    "invited": ["3"],
+    "attendees": ["1"],
+    "host": "1"
+  },
+  {
+    "id": "3",
+    "name": "Housewarming Party",
+    "description": "Come and see our new house!",
+    "startDate": "2024-03-01",
+    "startTime": "19:00",
+    "endDate": "2024-03-01",
+    "endTime": "22:00",
+    "location": "789 Oak Ave, Village",
+    "invited": [],
+    "attendees": ["1", "2", "3"],
+    "host": "3"
+  }
+]

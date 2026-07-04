@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690496631062",
+    "project_id": "game-night-app",
+    "storage_bucket": "game-night-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690496631062:android:07080e1ac9e51fd096a037",
+        "android_client_info": {
+          "package_name": "com.saxion.gameNightPro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLkuoeyLxTKDVynU_A3iclKyeDy56sAh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

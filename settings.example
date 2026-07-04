@@ -1,0 +1,3 @@
+ENVIRONMENT=staging
+
+BASE_URL=https://gamenight-backend-staging.onrender.com

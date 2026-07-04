@@ -1,0 +1,63 @@
+stages:
+  - format
+  - analyze
+  - test
+  - build
+
+variables:
+  FLUTTER_HOME: "/opt/flutter"
+  PATH: "$FLUTTER_HOME/bin:$PATH"
+
+format:
+  stage: format
+  script:
+    - flutter format --set-exit-if-changed .
+  only:
+    - merge_requests
+    - main
+
+analyze:
+  stage: analyze
+  script:
+    - flutter analyze
+  only:
+    - merge_requests
+    - main
+
+test:
+  stage: test
+  script:
+    - flutter test --coverage
+  artifacts:
+    paths:
+      - coverage/
+    expire_in: 1 day
+  only:
+    - merge_requests
+    - main
+
+build_android:
+  stage: build
+  script:
+    - flutter build apk --release
+  artifacts:
+    paths:
+      - build/app/outputs/flutter-apk/app-release.apk
+    expire_in: 7 days
+  only:
+    - main
+  tags:
+    - android
+
+build_ios:
+  stage: build
+  script:
+    - flutter build ios --release --no-codesign
+  artifacts:
+    paths:
+      - build/ios/iphoneos/
+    expire_in: 7 days
+  only:
+    - main
+  tags:
+    - ios
